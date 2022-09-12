@@ -190,7 +190,7 @@ export async function renderSchematic(
 
             mesh.position.x += -worldWidth / 2 + x + 0.5;
             mesh.position.y += -worldHeight / 2 + y + 0.5;
-            mesh.position.z += -worldLength / 2 + z + 0.5;
+            mesh.position.z += worldLength / 2 - z + 0.5;
             mesh.freezeWorldMatrix();
 
             scene.addMesh(mesh);
