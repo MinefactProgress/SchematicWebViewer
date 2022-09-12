@@ -9,7 +9,7 @@
         "dist/"
     ],
     "scripts": {
-        "prepublish": "yarn build",
+        "prepublish": "rm -rf dist && yarn build",
         "build": "tsc && tsc --module commonjs --outDir dist/cjs",
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "parcel test/test.html --port 3000 --host 0.0.0.0",
