@@ -23,13 +23,6 @@
     "chalk" "^2.0.0"
     "js-tokens" "^4.0.0"
 
-"@enginehub/schematicjs@^0.8.0":
-  "integrity" "sha512-sNo8E9+IRdI4oz96zQPgnF+Rsx6IcpZ1heCkVVDcgIBvhOZ0dOUecuisFzmK95wpxE9jaKOEahaK8KScp3rO3A=="
-  "resolved" "https://registry.npmjs.org/@enginehub/schematicjs/-/schematicjs-0.8.0.tgz"
-  "version" "0.8.0"
-  dependencies:
-    "nbt-ts" "^1.3.4"
-
 "@eslint/eslintrc@^1.3.1":
   "integrity" "sha512-OhSY22oQQdw3zgPOOwdoj01l/Dzl1Z+xyUP33tkSN+aqyEhymJCcPHyXt+ylW8FSe0TfRC2VG+ROQOapD0aZSQ=="
   "resolved" "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.3.1.tgz"
@@ -125,6 +118,12 @@
   "integrity" "sha512-zrBczSbXKxEyK2ijtbRdICDygRqWSRPpZMN5dD1T8VMEW5RIhIbwFWw2phDRXuBQdVDpSjalCIUMWMV2h3JaZA=="
   "resolved" "https://registry.npmjs.org/@lmdb/lmdb-win32-x64/-/lmdb-win32-x64-2.5.2.tgz"
   "version" "2.5.2"
+
+"@minefactprogress/schematicjs@github:MinefactProgress/SchematicJS":
+  "resolved" "git+ssh://git@github.com/MinefactProgress/SchematicJS.git#2e08eb577674b036127f7a5f2834f5af02dfaa83"
+  "version" "0.8.0"
+  dependencies:
+    "nbt-ts" "^1.3.4"
 
 "@mischnic/json-sourcemap@^0.1.0":
   "integrity" "sha512-dQb3QnfNqmQNYA4nFSN/uLaByIic58gOXq4Y4XqLOWmOrw73KmJPt/HLyG0wvn1bnR6mBKs/Uwvkh+Hns1T0XA=="

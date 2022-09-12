@@ -27,7 +27,7 @@
     },
     "homepage": "https://github.com/EngineHub/SchematicWebViewer#readme",
     "dependencies": {
-        "@enginehub/schematicjs": "^0.8.0",
+        "@minefactprogress/schematicjs": "github:MinefactProgress/SchematicJS",
         "babylonjs": "5.22.1",
         "buffer": "^6.0.3",
         "deepmerge": "^4.2.2",
@@ -46,9 +46,6 @@
         "prettier": "^2.6.2",
         "prettier-eslint": "^15.0.1",
         "typescript": "^4.8.2"
-    },
-    "peerDependencies": {
-        "@enginehub/schematicjs": "^0.7.0"
     },
     "browserslist": [
         "last 1 Chrome version"

@@ -1,5 +1,5 @@
-import type { Block } from '@enginehub/schematicjs';
-import { loadSchematic } from '@enginehub/schematicjs';
+import type { Block } from '@minefactprogress/schematicjs';
+import { loadSchematic } from '@minefactprogress/schematicjs';
 import type { SchematicHandles } from '.';
 import type { SchematicRenderOptions } from './types';
 import { getModelLoader } from './model/loader';

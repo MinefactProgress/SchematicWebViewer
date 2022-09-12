@@ -1,4 +1,4 @@
-import type { Block } from '@enginehub/schematicjs';
+import type { Block } from '@minefactprogress/schematicjs';
 import type { Material, Mesh, Scene } from 'babylonjs';
 import {
     Axis,
