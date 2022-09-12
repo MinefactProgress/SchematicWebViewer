@@ -1,5 +1,5 @@
 {
-    "name": "@enginehub/schematicwebviewer",
+    "name": "@minefactprogress/schematicwebviewer",
     "version": "4.3.1",
     "description": "A web viewer for modern Minecraft schematics",
     "main": "dist/cjs/index.js",
